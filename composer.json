@@ -27,7 +27,16 @@
 		"php": ">=5.3.6",
 		"mytoysgroup/patternlab-php-core": "0.6.*",
 		"mytoysgroup/patternengine-php-twig": "0.7.*",
-		"mytoysgroup/styleguidekit-twig-default": "0.7.*"
+		"mytoysgroup/styleguidekit-twig-default": "0.7.*",
+		"sebastian/version": "1.0.*",
+		"sebastian/resource-operations": "1.0.*",
+		"sebastian/recursion-context": "1.0.*",
+		"sebastian/global-state": "1.1.*",
+		"sebastian/exporter": "1.2.*",
+		"sebastian/environment": "1.3.*",
+		"sebastian/diff": "1.4.*",
+		"sebastian/comparator": "^1.2",
+		"phpunit/phpunit": "^5.1"
 	},
 	"scripts": {
 		"post-create-project-cmd": [
