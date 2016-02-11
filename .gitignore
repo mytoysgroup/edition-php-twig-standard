@@ -1,9 +1,17 @@
 .DS_Store
-composer.lock
-config/*
+# composer.lock # sollte mit-committet werden, um zu sehen, welche Versionen eigentlich gerade tatsächlich live sind und damit ein "composer install" genau diese versionen installiert
+
 export/*
-packages/*
+# packages/* # as long as we don't have an internal packagist-repo...
 public/*
-source/*
-vendor/*
-.idea/
+
+# vendor/*   # as long as we don't have an internal packagist-repo...
+.idea
+
+**/.sass-cache/*
+node_modules
+/ms_view_desktop
+/ms_view_rtf
+/ms_view
+npm-debug.log
+build_vars.sh

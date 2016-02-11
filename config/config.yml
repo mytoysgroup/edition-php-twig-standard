@@ -1,0 +1,42 @@
+v: 2.0.0-DP1
+overrideConfig: q
+ie:
+    - DS_Store
+    - less
+    - scss
+id:
+    - scss
+    - .svn
+    - .git
+    - .sass-cache
+    - node_modules
+cleanPublic: 'false'
+patternStates:
+    - inprogress
+    - inreview
+    - complete
+styleGuideExcludes: ''
+cacheBusterOn: 'true'
+exportDir: export
+packagesDir: packages
+publicDir: public
+sourceDir: ../ms_view
+ishMinimum: '240'
+ishMaximum: '2600'
+ishControlsHide:
+    - hay
+    - random
+    - disco
+    - mqs
+lineageMatch: '{%([ ]+)?include [&quot;\&#039;]([A-Za-z0-9-_]+)[&quot;\&#039;](.*)%}'
+lineageMatchKey: 2
+patternExtension: twig
+twigDebug: true
+twigDefaultDateFormat: ''
+twigDefaultIntervalFormat: ''
+twigMacroExt: macro.twig
+twigFilterExt: filter.php
+twigFunctionExt: function.php
+twigTagExt: tag.php
+twigTestExt: test.php
+styleguideKit: mytoysgroup/styleguidekit-twig-default
