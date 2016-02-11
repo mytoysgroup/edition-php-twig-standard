@@ -61,8 +61,6 @@
 	"extra": {
 		"patternlab": {
 			"starterKitSuggestions": [
-				"pattern-lab/starterkit-twig-base",
-				"pattern-lab/starterkit-twig-demo"
 			]
 		}
 	}
