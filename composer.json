@@ -57,11 +57,5 @@
 		"pre-package-uninstall": [
 			"PatternLab\\Installer::prePackageUninstall"
 		]
-	},
-	"extra": {
-		"patternlab": {
-			"starterKitSuggestions": [
-			]
-		}
 	}
 }
